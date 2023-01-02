@@ -1,0 +1,14 @@
+ion-content{
+    --background: rgb(250,255,118);
+    --background: linear-gradient(248deg, rgba(250,255,118,1) 0%, rgba(100,116,255,1) 100%);
+}
+
+
+.container{
+    -webkit-animation:scale-in-center 8s cubic-bezier(.25,.46,.45,.94) both;animation:scale-in-center 8s cubic-bezier(.25,.46,.45,.94) both;
+    img{
+        height: 100%;
+      width: 60%;
+        margin-top: 50%;
+    }
+}

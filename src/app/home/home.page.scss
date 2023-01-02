@@ -1,0 +1,40 @@
+ion-content{
+    --background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.1)),
+    url("/assets/images/monterey.jpg") no-repeat center center / cover;
+}
+
+.login-section{
+    height: 74vh;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin: auto;
+    border-top-left-radius: 46px;
+    border-top-right-radius: 46px;
+
+.heading{
+    margin-top: 20px;
+    h1{
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 1rem;
+        color: #7b7b7b;
+    }
+}
+.action-button{
+    text-align: center;
+.login-button{
+    --background: #3f42a2;
+    width: 100%;
+    font-weight: bold;
+}
+
+}
+}

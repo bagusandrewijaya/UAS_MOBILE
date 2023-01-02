@@ -1,0 +1,35 @@
+$primary: #03a9f4;
+$success: #4caf50;
+$danger: #f44336;
+$warning: #ff9800;
+$padding: 20px;
+.icons{
+    width:35px;
+      height:35px;
+  
+  }
+
+  .timeline-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    color: $primary;
+    &.success {
+        color: $success;
+        border-color: $success;
+    }
+    &.warning {
+        color: $warning;
+        border-color: $warning;
+    }
+    &.danger {
+        color: $danger;
+        border-color: $danger;
+    }
+    &.endcolor {
+        color: rgb(107, 106, 106);
+        border-color:rgb(107, 106, 106);
+    }
+}

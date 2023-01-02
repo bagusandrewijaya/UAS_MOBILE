@@ -1,0 +1,82 @@
+
+ <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.15.4/css/all.css">
+ <ion-content>
+	<section class="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 offset-sm-3">
+					<div class="box">
+						<div class="box__header">
+							<h5><i class="fa fa-clock-o m-r-5" aria-hidden="true"></i>Pendaftaran</h5>
+						</div>
+						<div class="box__body">
+							<ion-list>    
+                <ion-item>
+                  <ion-label>Nama</ion-label>
+                  <ion-input placeholder="Masukan Nama Anda"></ion-input>
+                </ion-item>
+                  
+                <ion-item>
+                  <ion-label>Jenis Kelamin</ion-label>
+                  <ion-select [interfaceOptions]="customAlertOptions" interface="action-sheet" placeholder="Pilih">
+                    <ion-select-option value="bacon">Perempuan</ion-select-option>
+                    <ion-select-option value="onions">Laki-Laki</ion-select-option>
+                  </ion-select>
+                </ion-item>
+                      
+                <ion-item>
+                  <ion-label>Program studi</ion-label>
+                  <ion-select [interfaceOptions]="customPopoverOptions" interface="action-sheet" placeholder="Pilih">
+                    <ion-select-option value="teknik">Teknik Informatika</ion-select-option>
+                    <ion-select-option value="sistem">Sistem Informasi</ion-select-option>
+                    <ion-select-option value="teknologi">Teknologi Informasi</ion-select-option>
+                    <ion-select-option value="managemen">Managemen</ion-select-option>
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                  <ion-label>No HandPhone</ion-label>
+                  <ion-input type="number" placeholder="08xxxx"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label>Email </ion-label>
+                  <ion-input type="email" placeholder="email@domain.com"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label>Asal Sekolah</ion-label>
+                  <ion-input placeholder="Masukan Asal Sekolah Anda"></ion-input>
+                </ion-item>
+                <ion-item>
+                  <ion-label>Jenjang</ion-label>
+                  <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Pilih">
+                    <ion-select-option value="S1">S1 (Sarjana)</ion-select-option>
+                    <ion-select-option value="D3">D3 (Diploma)</ion-select-option>
+                
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                  <ion-label>Kelas</ion-label>
+                  <ion-select [interfaceOptions]="customActionkelas" interface="action-sheet" placeholder="Pilih">
+                    <ion-select-option value="A">A regular</ion-select-option>
+                    <ion-select-option value="B">B regular</ion-select-option>
+                    <ion-select-option value="C">C Karyawan</ion-select-option>
+                
+                  </ion-select>
+                </ion-item>
+                <ion-item>
+                  <ion-label>Informasi Kampus</ion-label>
+                  <ion-select [interfaceOptions]="infokampus" interface="action-sheet" placeholder="Pilih">
+                    <ion-select-option value="0">Mahasiswa Unbin</ion-select-option>
+                    <ion-select-option value="1">Saudara</ion-select-option>
+                    <ion-select-option value="3">Iklan</ion-select-option>
+                
+                  </ion-select>
+                </ion-item>
+                <ion-button size="medium" class="login-button" style="background: red;">Kirim</ion-button>
+              </ion-list>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+ </ion-content>
